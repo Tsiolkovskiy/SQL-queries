@@ -2,3 +2,10 @@ SELECT *
 FROM log_in_attempts
 ORDER BY login_date DESC;
 
+
+SELECT firstname, lastname, title, email
+FROM employees
+WHERE title = 'IT Staff';
+
+
+
