@@ -12,3 +12,10 @@ select *
     -> from log_in_attempts
     -> where login_time > "18:00:00" and success = 0;
 failed logins after 6pm
+
+SELECT *
+
+FROM employees
+
+INNER JOIN machines ON employees.device_id = machines.device_id;
+
